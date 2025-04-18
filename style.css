@@ -1,0 +1,46 @@
+body {
+  font-family: 'Georgia', serif;
+  background-color: #0f0f1a;
+  color: #ddd;
+  margin: 0;
+  padding: 0;
+}
+header {
+  text-align: center;
+  padding: 20px;
+  background-color: #1a1a2e;
+}
+h1 {
+  font-size: 3em;
+  color: #a288f0;
+}
+.character-img {
+  width: 300px;
+  border-radius: 20px;
+  margin-top: 10px;
+}
+form {
+  padding: 20px;
+  margin: 20px;
+  background-color: #1e1e30;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+}
+input, textarea {
+  margin: 10px 0;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+}
+button {
+  padding: 10px;
+  background-color: #5d3fd3;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #472bb3;
+}
